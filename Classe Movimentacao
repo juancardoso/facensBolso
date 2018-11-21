@@ -1,0 +1,103 @@
+/**
+* Gustavo Mendes
+*/
+package com.example.juan.facensbolso;
+
+public class Movimentacao {
+	int id;
+	int idcategoria;
+	int idcarteira;
+	String tipo;
+	String descricao;
+	double valor;
+	categoria categoria;
+	datetime datetime;
+
+	Movimentacao(){
+		this.idcategoria = idcategoria;
+	}
+
+	Movimentacao (int id){
+		Movimentacao();
+		mov = this.getMovimentacao(id);
+		if(mov){
+			this.setMovimentacao(mov);
+		}
+	}
+
+	public boolean cadastrar(){
+		return false;
+	}
+
+	public boolean editar(){
+		return false;
+	}
+
+	public boolean deletar(){
+		return false;
+	}
+
+	public int getId(){
+		return id;
+	}
+
+	public void setId(int id){
+		this.id = id;
+	}
+
+	public int getIdcategoria(){
+		return idcategoria;
+	}
+
+	public void setIdcategoria(int idcategoria){
+		this.idcategoria = idcadastro;
+	}
+
+	public int getIdcarteira(){
+		return idcarteira;
+	}
+
+	public void setIdcarteira(int idcarteira){
+		this.idcarteira = idcarteira;
+	}
+
+	public String getTipo(){
+		return tipo;
+	}
+
+	public void setTipo(String tipo){
+		this.tipo = tipo;
+	}
+
+	public String getDescricao(){
+		return descricao;
+	}
+
+	public void setDescricao(String descricao){
+		this.descricao = descricao;
+	}
+
+	public double getValor(){
+		return valor;
+	}
+
+	public void setValor(double valor){
+		this.valor = valor;
+	}
+
+	public categoria getCategoria(String categoria){
+		return categoria;
+	}
+
+	public categoria setCategoria(String categoria){
+		this.categoria = categoria;
+	}
+
+	public datetime getDatetime(String datetime){
+		return SimpleDateFormat;
+	}
+
+	public datetime getDatetime(String datetime){
+		this.datetime = datetime;
+	}
+}
